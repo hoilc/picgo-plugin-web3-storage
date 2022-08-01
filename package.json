@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-web3-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upload images to Web3.Storage",
   "main": "src/index.js",
   "publishConfig": {

@@ -29,7 +29,7 @@ const config = (ctx) => {
       default: userConfig.token,
       required: true,
       alias: "API Token",
-      message: "Created at https://web3.storage/tokens/",
+      message: "API Token, created at https://web3.storage/tokens/",
     },
     {
       name: "gateway",
@@ -38,7 +38,7 @@ const config = (ctx) => {
       required: false,
       alias: "IPFS Gateway",
       message:
-        "{} would be replaced to cid, default to https://nftstorage.link/ipfs/{}",
+        "IPFS Gateway, {} would be replaced to cid, default to https://nftstorage.link/ipfs/{}",
     },
     {
       name: "filenameInURL",
@@ -46,7 +46,7 @@ const config = (ctx) => {
       default: false,
       required: false,
       alias: "Filename In URL",
-      message: "One batch could share the same cid, default to false",
+      message: "Filename In URL, one batch could share the same cid, default to false",
     },
   ];
 };
